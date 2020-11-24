@@ -150,7 +150,7 @@ img {
 }
 
 .search-submit:hover {
-	background: #555;
+	background: #ffb401;
 }
 
 .cart-user-wrap {
@@ -211,12 +211,12 @@ img {
 
 .nav-cat-btn:hover {
     color: #ffffff;
-    background: #444;
+    background: #ffb401;
 }
 
 .main-menu ul .active a,
 .main-menu ul a:hover {
-	color: #d20c0f;
+	color: #ffb401;
 }
 
 .main-menu ul {
@@ -1959,6 +1959,14 @@ span.followed i {
 .btn-orange:hover {
 	background: #ca4819;
 }
+.btn-trnsp {
+	border: 1px solid #fff;
+}
+.btn-trnsp:hover {
+	background: #d20c0f;
+	border: 1px solid #d20c0f;
+}
+
 
 .login-form > ul > li:first-child a {
     border-radius: 5px 0 0 5px;
@@ -2491,8 +2499,11 @@ span.followed i {
 
 /* Main Slider */
 .carousel-item .carousel-caption {
-	bottom: 50%;
-	transform: translateY(50%);
+    left: 40px;
+    right: auto;
+    bottom: 52%;
+    text-align: left;
+    transform: translateY(50%);
 }
 
 .main-slider .carousel,
@@ -2518,6 +2529,11 @@ span.followed i {
 .carousel-caption h2 {
 	font-size: 40px;
 	font-weight: 700;
+}
+
+.carousel-caption .btn {
+	margin-top: 5px;
+	padding: 7px 20px;
 }
 
 .carousel .carousel-indicators li {
