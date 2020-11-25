@@ -149,8 +149,14 @@ img {
     height: 44px;
 }
 
-.search-submit:hover {
+.btn-dark {
+	background: #282828;
+}
+
+.search-submit:hover,
+.btn-dark:hover {
 	background: #ffb401;
+	border-color: #ffb401;
 }
 
 .cart-user-wrap {
@@ -1062,15 +1068,9 @@ td.product-remove {
 .order-summery form button {
 	padding: 10px 20px;
 	color: #fff;
-	background: #282828;
 	border: none;
 	border-radius: 5px;
 	margin-left: 10px;
-}
-
-.order-summery form button:hover {
-	background: #112942;
-	color: #fff;
 }
 
 .grand-total {
@@ -1957,12 +1957,14 @@ span.followed i {
     background: #d20c0f;
 }
 .btn-orange:hover {
-	background: #ca4819;
+	background: #ffb401;
 }
 .btn-trnsp {
+	color: #fff;
 	border: 1px solid #fff;
 }
 .btn-trnsp:hover {
+	color: #fff;
 	background: #d20c0f;
 	border: 1px solid #d20c0f;
 }
@@ -2227,10 +2229,6 @@ span.followed i {
 	padding: 10px 25px;
 	border-radius: 0px 5px 5px 0px;
 	height: 45px;
-}
-
-.newslater button:hover {
-	background: #555;
 }
 
 .order-policy input {
