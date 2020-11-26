@@ -273,7 +273,7 @@ img {
     display: none;
 }
 
-.sticky .nav-cat-wrap:hover .nav-cat-menu {
+.nav-cat-wrap:hover .nav-cat-menu {
 	display: block;
 }
 
@@ -520,7 +520,8 @@ img {
 	color: #94aac2;
 }
 
-.product-area {
+.product-area,
+.shop-area {
 	background: #e8eef1;
 }
 
@@ -711,15 +712,10 @@ img {
 	border-radius: 5px;
 	color: #fff;
 }
-.site-btn.two {
-	background: #112942;
-}
-.site-btn.two:hover {
-	background: #282828;
-}
+
 
 .site-btn:hover {
-	background: #112942;
+	background: #ffb401;
 	color: #fff;
 }
 
@@ -849,6 +845,7 @@ span.qty-plus-minus input {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+    display: none;
 }
 
 .order-policy h4 {
@@ -892,7 +889,8 @@ span.qty-plus-minus input {
 }
 
 .product-tab ul a.active {
-	color: #282828;
+	color: #ffb401;
+	background-color: #fff;
 }
 
 .product-tab ul a {
@@ -902,7 +900,7 @@ span.qty-plus-minus input {
 }
 
 .product-tab ul a:hover {
-	color: #282828;
+	color: #ffb401;
 }
 
 .releted-product .title {
@@ -1950,7 +1948,7 @@ span.followed i {
     background: #282828;
 }
 .btn-blue:hover {
-	background: #421640;
+	background: #ffb401;
 }
 
 .btn-orange {
@@ -1989,6 +1987,10 @@ span.followed i {
 
 .login-form a.nav-link.active {
     background: #d20c0f;
+}
+
+.login-form a.nav-link:hover {
+    background: #ffb401;
 }
 
 .tab-pane h3,
@@ -2253,6 +2255,7 @@ span.followed i {
 }
 
 .order-policy h4 span {
+	color: #fff;
 	background: #d20c0f;
 	padding: 5px 13px;
 	display: inline-block;
@@ -2361,18 +2364,18 @@ span.followed i {
     border-radius: 5px;
 }
 
+.saler-info .message:hover {
+	color: #fff;
+	background: #ffb401;
+}
+
 .saler-info .message i {
     margin-right: 2px;
 }
 
 .saler-info a.site-btn {
-    background: #6989a7;
     border-radius: 30px;
     margin-top: 20px;
-}
-
-.saler-info a.site-btn:hover {
-    background: #112942;
 }
 
 .order-policy label:hover {
